@@ -1,0 +1,25 @@
+
+function setup() {
+  createCanvas(340, 340);
+}
+
+function draw() {
+    line(random(width), random(height), random(width), random(height));
+  //pink
+  	if (random(width) < 20) {
+      stroke(255, 0, 220)
+  //cyan
+    }
+  	if (random(width) > 20 ) {
+      stroke(255, 0, 220)
+    }
+  	if(random(width) > 99 && random(width) < 200){
+      stroke(0, 242, 225)
+    }
+  	if (random(width) > 200 && random(width) < 300){
+      stroke(0, 255, 0)
+    }
+  	if (random(width) > 300){
+      stroke(200, 255, 60)
+    }
+}
